@@ -1,16 +1,71 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Card</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
 
+    .card {
+      width: 300px;
+      padding: 20px;
+      background-color: #f1f1f1;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    .card h1 {
+      font-size: 24px;
+      margin: 15px 0 10px;
+      font-weight: bold;
+    }
+
+    .card p {
+      margin: 8px 0;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .card button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #f05454;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .card button:hover {
+      background-color: #d94343;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <div class="card">
+    <img src="https://wallpapercave.com/wp/wp2465927.jpg" alt="Heart Tree">
+    <h1>Pricing Card</h1>
+    <p>Price: Rs.200</p>
+    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button>Buy Now</button>
+  </div>
 
 </body>
-
 </html>
